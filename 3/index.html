@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela de Notas Interativa</title>
+    <link rel="stylesheet" href="assets/estilo.css">
+</head>
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="col-0" onclick="msg(this)">Disciplina</th>
+                <th class="col-1" onclick="msg(this)">Aluno</th>
+                <th class="col-2" onclick="msg(this)">P1</th>
+                <th class="col-3" onclick="msg(this)">P2</th>
+                <th class="col-4" onclick="msg(this)">Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="grupo-web">
+                <td rowspan="5" class="col-0 topo" onclick="msg(this)">Web</td>
+
+                <td class="col-1" onclick="msg(this)">José da Silva</td>
+                <td class="col-2" onclick="msg(this)">30</td>
+                <td class="col-3" onclick="msg(this)">10</td>
+                <td class="col-4" onclick="msg(this)">40</td>
+            </tr> 
+            <tr class="grupo-web"><td class="col-1" onclick="msg(this)">Maria da Silva</td><td class="col-2" onclick="msg(this)">25</td><td class="col-3" onclick="msg(this)">7</td><td class="col-4" onclick="msg(this)">32</td></tr>
+            <tr class="grupo-web"><td class="col-1" onclick="msg(this)">Ronildo Graves</td><td class="col-2" onclick="msg(this)">12</td><td class="col-3" onclick="msg(this)">3</td><td class="col-4" onclick="msg(this)">15</td></tr>
+            <tr class="grupo-web"><td class="col-1" onclick="msg(this)">Joselita Santos</td><td class="col-2" onclick="msg(this)">15</td><td class="col-3" onclick="msg(this)">8</td><td class="col-4" onclick="msg(this)">23</td></tr>
+            </tr>
+
+            <tr class="grupo-web media">
+                <td colspan="4" class="col-1" onclick="msg(this)">Média Web: 27,5</td>
+            </tr>
+
+            <tr class="grupo-logica">
+                <td rowspan="6" class="col-0 topo" onclick="msg(this)">Lógica de Programação</td>                <td class="col-1" onclick="msg(this)">José da Silva</td>
+                <td class="col-2" onclick="msg(this)">20</td>
+                <td class="col-3" onclick="msg(this)">9</td>
+                <td class="col-4" onclick="msg(this)">29</td>
+            </tr>
+
+            <tr class="grupo-logica">
+            <td class="col-1" onclick="msg(this)">Maria da Silva</td><td class="col-2" onclick="msg(this)">32</td><td class="col-3" onclick="msg(this)"></td><td class="col-4" onclick="msg(this)">32</td></tr>
+            <tr class="grupo-logica"><td class="col-1" onclick="msg(this)">Ronildo Graves</td><td class="col-2" onclick="msg(this)">18</td><td class="col-3" onclick="msg(this)">5</td><td class="col-4" onclick="msg(this)">23</td></tr>
+            <tr class="grupo-logica"><td class="col-1" onclick="msg(this)">Ronildo Campos</td><td class="col-2" onclick="msg(this)">35</td><td class="col-3" onclick="msg(this)"></td><td class="col-4" onclick="msg(this)">35</td></tr>
+            <tr class="grupo-logica"><td class="col-1" onclick="msg(this)">Janaína Murtosa</td><td class="col-2" onclick="msg(this)">30</td><td class="col-3" onclick="msg(this)">10</td><td class="col-4" onclick="msg(this)">40</td></tr>
+            </tr>
+
+            <tr class="grupo-logica media">
+                <td colspan="5" class="col-2" onclick="msg(this)">Média Logica de Programação: 31,8</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <script src="assets/funcionalidade.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: sans-serif;
+}
+
+th { background-color: #3b5998; color: white; padding: 10px; cursor: pointer; }
+
+td { border: 1px solid #ccc; padding: 8px; text-align: left; }
+
+.topo { vertical-align: top; font-weight: bold; color: #3b5998; }
+
+tbody tr:nth-child(even) { background-color: #dfe3ee; }
+tbody tr:nth-child(odd) { background-color: #f7f7f7; }
+
+.laranja { background-color: #FF4500 !important; color: white !important; }
+
+tr:hover td {
+    background-color: #FF4500 !important;
+    color: white !important;
+}
+
+.destaque-coluna {
+    color: #FF4500 !important;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
